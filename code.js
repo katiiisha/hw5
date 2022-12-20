@@ -55,23 +55,28 @@ let elem1 = arr3.pop()
 console.log(elem1);
 
 //slice
+//ЗАДАНИЕ 8
 let array4 = [1, 2, 3, 4, 5]
-
 let newarray4 = array4.slice(0, 3)
 console.log(newarray4);
 
+//ЗАДАНИЕ 9
 let sub = array4.slice(3, 5)
 console.log(sub);
 
 //splice
+
+//ЗАДАНИЕ 10
 let arr4 = [1, 2, 3, 4, 5]
 arr4.splice(1, 2)
 console.log(arr4);
 
+//ЗАДАНИЕ 11
 let arr5 = [1, 2, 3, 4, 5]
 let Arr5 = arr5.splice(1, 3)
 console.log(Arr5);
 
+//ЗАДАНИЕ 12
 let arr6 = [1, 2, 3, 4, 5]
 arr6.splice(1, 0, 'a', 'b')
 arr6.splice(-1, 0, 'c')
